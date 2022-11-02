@@ -14,10 +14,9 @@ section{
     width: 100%;
     height: 100vh;
     color: #fff;
-    background: linear-gradient(-45deg, #EE7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #ff6600, #000);
     background-size: 400% 400%;
     position: relative;
-    animation: change 10 ease-in-out infinite;
 }
 
 h1{
@@ -28,16 +27,4 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-@keyframes change {
-    0%{
-        background-position: 0 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0 50%;
-    }
 }
