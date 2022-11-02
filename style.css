@@ -38,7 +38,7 @@ button{
     font-size: 18px;
     letter-spacing: 2px;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -48,7 +48,7 @@ p{
     text-transform: uppercase;
     letter-spacing: 2px;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
