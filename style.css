@@ -29,7 +29,7 @@ h1{
     transform: translate(-50%, -50%);
 }
 
-button{
+a{
     background-color: rgb(6,6,6);
     color: rgb(240, 240, 240);
     border-radius: 8px;
@@ -39,16 +39,20 @@ button{
     letter-spacing: 2px;
     position: absolute;
     top: 55%;
-    left: 50%;
+    left: 45%;
     transform: translate(-50%, -50%);
 }
 
-p{
-    font-size: 5rem;
-    text-transform: uppercase;
+b{
+    background-color: rgb(6,6,6);
+    color: rgb(240, 240, 240);
+    border-radius: 8px;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
     letter-spacing: 2px;
     position: absolute;
-    top: 45%;
-    left: 50%;
+    top: 55%;
+    left: 55%;
     transform: translate(-50%, -50%);
 }
