@@ -1,0 +1,161 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: arial;
+      background: #575051;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.wrapper .sidenav{
+    position: fixed;
+    left: -500px;
+    top: 0;
+    width: 20vw;
+    height: 100vh;
+    background: #231f20;
+    border-radius: 15px;
+    transition: all .5;
+}
+.wrapper .sidenav h1{
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    border-bottom: 1px dotted white;
+}
+.wrapper .sidenav ul li{
+    display: block;
+    list-style: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 5px solid orange;
+    box-sizing: border-box;
+}
+i{
+    margin-right: 8px;
+}
+.wrapper .sidenav ul li:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.wrapper .sidenav .social-media{
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 30px;
+    display: flex;
+}
+.wrapper .sidenav .social-media a{
+    margin: 0 15px;
+    background: #575051;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+.wrapper .sidenav .social-media a:hover{
+    transition: 1s;
+    transform: rotate(360deg);
+}
+.wrapper .sidenav .social-media a i{
+    margin: 0 auto;
+}
+.wrapper .main-content{
+    width: 80vw;
+    margin-left: 20vw;
+}
+section{
+    height: 500vh;
+    width: 100%;
+    margin-left: 20vw;
+    padding: 30px;
+}
+#section1{
+    background: #575051;
+    color: #fff;
+    background-size: cover;
+}
+#section2{
+    background: #575051;
+    color: #fff
+}
+#section3{
+    background: #575051;
+    color: #fff;
+}
+#section4{
+    background: #575051;
+    color: #fff;
+}
+#section5{
+    background: #575051;
+    color: #fff;
+}
+#check{
+    display: none;
+}
+label #btn,label #cancel{
+    position: absolute;
+    cursor: pointer;
+    border-radius: 3px;
+}
+label #btn{
+    left: 45px;
+    top: 25px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    background: #231f20;
+}
+label #cancel{
+    z-index: 1111;
+    left: -500px;
+    top: 27px;
+    font-size: 30px;
+    color: #fff;
+    padding: 4px 9px;
+    background: #575051;
+}
+#check:checked ~ .wrapper .sidenav{
+  left: 0;
+}
+#check:checked ~ label #btn{
+  left: 250px;
+  opacity: 0;
+  pointer-events: none;
+}
+#check:checked ~ label #cancel{
+  left: 320px;
+}
+@media (max-width: 860px) {
+  .wrapper .sidenav{
+    height: auto;
+    width: 70px;
+    left: 0;
+    margin: 100px 0;
+  }
+  h1,#btn,#cancel{
+    display: none;
+  }
+  span{
+    position: absolute;
+    margin-left: 23px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .wrapper .sidenav a i{
+    margin-left: -10px;
+  }
+  a:hover{
+    width: 200px;
+  }
+}
