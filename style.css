@@ -16,7 +16,7 @@ a{
 }
 .wrapper .sidenav{
     position: fixed;
-    left: -500px;
+    left: 0px;
     top: 0;
     width: 20vw;
     height: 100vh;
@@ -28,7 +28,10 @@ a{
     color: #fff;
     text-align: center;
     line-height: 90px;
-    border-bottom: 1px dotted white;
+    left: 17%;
+    display: flex;
+    font-size: 40px;
+    margin-left: 20px;
 }
 .wrapper .sidenav ul li{
     display: block;
@@ -100,51 +103,73 @@ section{
     background: #575051;
     color: #fff;
 }
-#check{
-    display: none;
-}
-label #btn,label #cancel{
-    position: absolute;
-    cursor: pointer;
-    border-radius: 3px;
-}
-label #btn{
-    left: 45px;
-    top: 25px;
-    font-size: 35px;
-    color: white;
-    padding: 6px 12px;
-    background: #231f20;
-}
-label #cancel{
-    z-index: 1111;
-    left: -500px;
-    top: 27px;
-    font-size: 30px;
+@media (max-width: 1735px) {
+  .wrapper .sidenav h1{
     color: #fff;
-    padding: 4px 9px;
-    background: #575051;
+    text-align: center;
+    line-height: 90px;
+    left: 17%;
+    display: flex;
+    font-size: 35px;
+    margin-left: 20px;
+  }
 }
-#check:checked ~ .wrapper .sidenav{
-  left: 0;
+@media (max-width: 1565px) {
+  .wrapper .sidenav h1{
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    left: 17%;
+    display: flex;
+    font-size: 30px;
+    margin-left: 20px;
+  }
 }
-#check:checked ~ label #btn{
-  left: 250px;
-  opacity: 0;
-  pointer-events: none;
+@media (max-width: 1400px) {
+  .wrapper .sidenav h1{
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    left: 17%;
+    display: flex;
+    font-size: 25px;
+    margin-left: 20px;
+  }
 }
-#check:checked ~ label #cancel{
-  left: 320px;
+@media (max-width: 1230px) {
+  .wrapper .sidenav h1{
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    left: 17%;
+    display: flex;
+    font-size: 25px;
+    margin-left: 20px;
+  }
 }
-@media (max-width: 860px) {
+@media (max-width: 1230px) {
+  .wrapper .sidenav h1{
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    left: 17%;
+    display: flex;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 985px) {
   .wrapper .sidenav{
     height: auto;
     width: 70px;
     left: 0;
     margin: 100px 0;
   }
-  h1,#btn,#cancel{
+  .wrapper .sidenav h1{
     display: none;
+  }
+  label #btn{
+    left: -500px;
   }
   span{
     position: absolute;
@@ -155,7 +180,19 @@ label #cancel{
   .wrapper .sidenav a i{
     margin-left: -10px;
   }
-  a:hover{
-    width: 200px;
+  .wrapper .sidenav ul li{
+    text-align: center;
+  }
+  .wrapper .sidenav .social-media{
+    display: none;
+  }
+  #section p{
+    padding: 20px 0px 0;
+  }
+  section{
+    margin-left: 10vw;
+  }
+  .wrapper .main-content{
+      margin-left: 10vw;
   }
 }
