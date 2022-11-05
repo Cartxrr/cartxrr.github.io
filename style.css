@@ -21,7 +21,7 @@ a{
     width: 20vw;
     height: 100vh;
     background: #231f20;
-    border-radius: 15px;
+    border-radius: 25px;
     transition: all .5;
 }
 .wrapper .sidenav h1{
@@ -39,7 +39,7 @@ a{
     padding: 15px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    border-left: 5px solid orange;
+    border-left: 5px solid #FF7518;
     box-sizing: border-box;
 }
 i{
@@ -66,7 +66,7 @@ i{
     align-items: center;
 }
 .wrapper .sidenav .social-media a:hover{
-    transition: 1s;
+    transition: 0.5s;
     transform: rotate(360deg);
 }
 .wrapper .sidenav .social-media a i{
@@ -82,26 +82,69 @@ section{
     margin-left: 20vw;
     padding: 30px;
 }
-#section1{
+#home{
     background: #575051;
     color: #fff;
     background-size: cover;
 }
-#section2{
+#home a{
+  background: #231f20;
+  border-radius: 8px;
+  color: #fff;
+  height: 60px;
+  width: 100px;
+  font-family: cursive;
+  font-size: 18px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  transform: translate(0, 50%);
+  margin-top: 20px;
+}
+#home a:hover{
+  background: #3e3739;
+  transition: 0.75s;
+  color: #ccc;
+}
+#aboutme{
     background: #575051;
     color: #fff
 }
-#section3{
+#aboutme p{
+    transform: translate(0, 50%);
+    margin-top: 10px;
+    font-family: cursive;
+}
+#downloads{
     background: #575051;
     color: #fff;
 }
-#section4{
+#downloads a{
+  background: #231f20;
+  border-radius: 8px;
+  color: #fff;
+  height: 50px;
+  width: 100px;
+  font-family: cursive;
+  font-size: 16px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  transform: translate(0, 50%);
+}
+#downloads a:hover{
+  background: #3e3739;
+  transition: 0.75s;
+  color: #ccc;
+}
+#projects{
     background: #575051;
     color: #fff;
 }
-#section5{
-    background: #575051;
-    color: #fff;
+#projects img{
+    transform: translate(0, 25%);
+    border: 15px solid black;
+    border-radius: 25px;
 }
 @media (max-width: 1735px) {
   .wrapper .sidenav h1{
@@ -189,8 +232,11 @@ section{
   #section p{
     padding: 20px 0px 0;
   }
+  #section3 h1{
+    padding: 20px 0px 0;
+  }
   section{
-    margin-left: 10vw;
+    margin-left: 18vw;
   }
   .wrapper .main-content{
       margin-left: 10vw;

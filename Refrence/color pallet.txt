@@ -1,0 +1,4 @@
+#575051 - Background
+#231f20 - Sidebar Background
+#3e3739 - Sidebar Background Alt
+#FF7518 - Sidebar Left
