@@ -93,7 +93,7 @@ section{
   color: #fff;
   height: 60px;
   width: 100px;
-  font-family: cursive;
+  font-family: serif;
   font-size: 18px;
   display: flex;
   text-align: center;
@@ -113,7 +113,7 @@ section{
 #aboutme p{
     transform: translate(0, 50%);
     margin-top: 10px;
-    font-family: cursive;
+    font-family: serif;
 }
 #downloads{
     background: #575051;
@@ -125,7 +125,7 @@ section{
   color: #fff;
   height: 50px;
   width: 100px;
-  font-family: cursive;
+  font-family: serif;
   font-size: 16px;
   display: flex;
   text-align: center;
