@@ -85,7 +85,6 @@ section{
 #home{
     background: #575051;
     color: #fff;
-    background-size: cover;
 }
 #home a{
   background: #231f20;
@@ -241,4 +240,5 @@ section{
   .wrapper .main-content{
       margin-left: 10vw;
   }
+
 }
