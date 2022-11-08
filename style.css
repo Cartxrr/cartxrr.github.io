@@ -79,7 +79,6 @@ i{
 section{
     height: 500vh;
     width: 100%;
-    margin-left: 20vw;
     padding: 30px;
 }
 #home{
@@ -107,7 +106,7 @@ section{
 }
 #aboutme{
     background: #575051;
-    color: #fff
+    color: #fff;
 }
 #aboutme p{
     transform: translate(0, 50%);
@@ -200,7 +199,26 @@ section{
     margin-left: 20px;
   }
 }
-@media (max-width: 985px) {
+@media (max-width: 935px) {
+  .wrapper .sidenav .social-media{
+    position: absolute;
+    bottom: 4px;
+    left: 25%;
+    transform: translate(-25%);
+    font-size: 20px;
+    display: flex;
+  }
+  .wrapper .sidenav .social-media a{
+      margin: 0 7.5px;
+      background: #575051;
+      border-radius: 5px;
+      height: 30px;
+      width: 30px;
+      display: flex;
+      align-items: center;
+  }
+}
+@media (max-width: 425px) {
   .wrapper .sidenav{
     height: auto;
     width: 70px;
@@ -228,17 +246,16 @@ section{
   .wrapper .sidenav .social-media{
     display: none;
   }
-  #section p{
+  #home p{
     padding: 20px 0px 0;
   }
-  #section3 h1{
+  #Projects3 h1{
     padding: 20px 0px 0;
-  }
-  section{
-    margin-left: 18vw;
   }
   .wrapper .main-content{
-      margin-left: 10vw;
+    margin-left: 18vw;
   }
-
+  #aboutme p{
+    font-size: 10px;
+  }
 }
