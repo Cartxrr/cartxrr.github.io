@@ -8,7 +8,7 @@
 }
 body{
     font-family: arial;
-      background: #575051;
+    background: #575051;
 }
 a{
     color: white;
@@ -23,6 +23,7 @@ a{
     background: #231f20;
     border-radius: 25px;
     transition: all .5;
+    box-shadow: 2px 2px 10px black;
 }
 .wrapper .sidenav h1{
     color: #fff;
@@ -32,6 +33,7 @@ a{
     display: flex;
     font-size: 40px;
     margin-left: 20px;
+    text-shadow: 2px 2px 10px gray;
 }
 .wrapper .sidenav ul li{
     display: block;
@@ -41,6 +43,7 @@ a{
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-left: 5px solid #FF7518;
     box-sizing: border-box;
+    text-shadow: 2px 2px 10px gray;
 }
 i{
     margin-right: 8px;
@@ -64,10 +67,11 @@ i{
     width: 40px;
     display: flex;
     align-items: center;
+    box-shadow: 2px 2px 10px black;
 }
 .wrapper .sidenav .social-media a:hover{
-    transition: 0.5s;
-    transform: rotate(360deg);
+  background-color: #676162;
+  transition: 0.75s;
 }
 .wrapper .sidenav .social-media a i{
     margin: 0 auto;
@@ -81,8 +85,10 @@ section{
     width: 100%;
     padding: 30px;
 }
+section h1{
+    text-shadow: 2px 2px 10px gray;
+}
 #home{
-    background: #575051;
     color: #fff;
 }
 #home a{
@@ -96,8 +102,10 @@ section{
   display: flex;
   text-align: center;
   align-items: center;
-  transform: translate(0, 50%);
+  transform: translate(, 50%);
   margin-top: 20px;
+  box-shadow: 2px 2px 10px black;
+  text-shadow: 2px 2px 10px gray;
 }
 #home a:hover{
   background: #3e3739;
@@ -112,6 +120,7 @@ section{
     transform: translate(0, 50%);
     margin-top: 10px;
     font-family: serif;
+    text-shadow: 2px 2px 10px gray;
 }
 #downloads{
     background: #575051;
@@ -129,6 +138,8 @@ section{
   text-align: center;
   align-items: center;
   transform: translate(0, 50%);
+  box-shadow: 2px 2px 10px black;
+  text-shadow: 2px 2px 10px gray;
 }
 #downloads a:hover{
   background: #3e3739;
