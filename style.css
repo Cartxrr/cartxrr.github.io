@@ -25,13 +25,10 @@ a{
 }
 .wrapper .sidenav h1{
     color: #fff;
-    text-align: center;
     line-height: 90px;
-    left: 17%;
-    display: flex;
     font-size: 40px;
-    margin-left: 20px;
-    text-shadow: 2px 2px 10px gray;
+    transform: translate(25%);
+    text-shadow: 1px 1px 7px white;
 }
 .wrapper .sidenav ul li{
     display: block;
@@ -41,9 +38,8 @@ a{
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-left: 5px solid #FF7518;
     box-sizing: border-box;
-    text-shadow: 2px 2px 10px gray;
 }
-i{
+.wrapper .sidenav i{
     margin-right: 8px;
 }
 .wrapper .sidenav ul li:hover{
@@ -146,9 +142,17 @@ section h1{
     border: 15px solid black;
     border-radius: 25px;
 }
+@media (max-width: 1024px) {
+  .wrapper .sidenav h1{
+      transform: translate(20%);
+  }
+  .wrapper .sidenav span{
+      font-size: 12px;
+  }
+}
 @media (max-width: 850px) { /* tablet compatibility */
   .wrapper .sidenav h1{
-      font-size: 20px;
+      font-size: 25px;
   }
 @media (max-width: 600px) { /* phone compatibility */
     .wrapper .sidenav{
