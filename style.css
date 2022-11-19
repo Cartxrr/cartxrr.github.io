@@ -184,6 +184,7 @@ section h1{
   border: 15px solid black;
   border-radius: 25px;
   margin-top: 15px;
+  margin-left: 15px;
 }
 #GM2{
   background: #575051;
@@ -191,7 +192,6 @@ section h1{
 }
 #GM2 div{
   margin-top: 20px;
-  border: 15px solid black;
 }
 @media (max-width: 1024px) {
   .wrapper .sidenav h1{
