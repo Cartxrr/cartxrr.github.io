@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden; /* person cant scroll */
-    scroll-behavior: smooth; /* doesnt work on chrome i think */
+    scroll-behavior: none; /* doesnt work on chrome i think */
 }
 body{
     font-family: arial; /* wheres comic sans */
@@ -185,13 +185,6 @@ section h1{
   border-radius: 25px;
   margin-top: 15px;
   margin-left: 15px;
-}
-#GM2{
-  background: #575051;
-  color: #fff;
-}
-#GM2 div{
-  margin-top: 20px;
 }
 @media (max-width: 1024px) {
   .wrapper .sidenav h1{
