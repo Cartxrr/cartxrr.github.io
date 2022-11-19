@@ -185,6 +185,14 @@ section h1{
   border-radius: 25px;
   margin-top: 15px;
 }
+#GM2{
+  background: #575051;
+  color: #fff;
+}
+#GM2 div{
+  margin-top: 20px;
+  border: 15px solid black;
+}
 @media (max-width: 1024px) {
   .wrapper .sidenav h1{
       transform: translate(20%);
