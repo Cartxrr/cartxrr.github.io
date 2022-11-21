@@ -1,0 +1,104 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* person cant scroll */
+    scroll-behavior: none; /* doesnt work on chrome i think */
+}
+body{
+    font-family: arial; /* wheres comic sans */
+    background: #575051;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.wrapper .sidenav{ /* scary sidebar that could break at anytime */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20vw;
+    height: 100vh;
+    background: #231f20;
+    transition: all .5;
+    box-shadow: 2px 2px 10px black;
+}
+.wrapper .sidenav h1{
+    color: #fff;
+    line-height: 90px;
+    font-size: 40px;
+    transform: translate(25%);
+    text-shadow: 1px 1px 7px white;
+}
+.wrapper .sidenav ul li{
+    display: block;
+    list-style: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 5px solid #FF7518;
+    box-sizing: border-box;
+}
+.wrapper .sidenav i{
+    margin-right: 8px;
+}
+.wrapper .sidenav ul li:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.wrapper .main-content{
+    width: 80vw;
+    margin-left: 20vw;
+}
+section{
+    height: 500vh;
+    width: 100%;
+    padding: 30px;
+}
+section h1{
+    text-shadow: 2px 2px 10px gray;
+}
+#downloads{ /* download my junk */
+    background: #575051;
+    color: #fff;
+}
+#downloads a{
+  background: #231f20;
+  border-radius: 8px;
+  color: #fff;
+  height: 50px;
+  width: 100px;
+  font-family: serif;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  transform: translate(0, 50%);
+  box-shadow: 2px 2px 10px black;
+  text-shadow: 2px 2px 10px gray;
+  margin-top: 15px;
+}
+#downloads a p{
+  margin: 0 auto;
+  text-align: center;
+}
+#downloads a:hover{
+  background: #3e3739;
+  transition: 0.75s;
+  color: #ccc;
+}
+@media (max-width: 1024px) {
+  .wrapper .sidenav h1{
+      transform: translate(20%);
+  }
+  .wrapper .sidenav span{
+      font-size: 12px;
+  }
+}
+@media (max-width: 850px) { /* tablet compatibility */
+  .wrapper .sidenav h1{
+      font-size: 25px;
+  }
+@media (max-width: 600px) { /* phone compatibility */
+    .wrapper .sidenav{
+      left: -500000px;
+    }
+}
