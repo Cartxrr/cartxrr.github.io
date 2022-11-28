@@ -42,8 +42,9 @@
                       </div>
 
                       <script>
-                          var myDate = new Date();
-                          var hrs = myDate.getHours();
+                    
+                    "use strict";
+                    const hrs = new Date().getHours();
 
                           var greet;
 
@@ -54,7 +55,7 @@
                           else if (hrs >= 17 && hrs <= 24)
                               greet = 'Good Evening';
 
-                          document.getElementById('GText').innerHTML =
+                          document.getElementById('GText').innerText =
                               greet;
                       </script>
 
