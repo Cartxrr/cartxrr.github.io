@@ -53,7 +53,6 @@ a{
     margin-left: 20vw;
 }
 
-
 /* PAGES */
 
 section{
@@ -73,12 +72,15 @@ section h1{
 }
 #gxmes img{
   transform: translate(0, 25%);
-  border: 15px solid black;
   border-radius: 25px;
   margin-top: 15px;
   margin-left: 15px;
+  border: 15px solid black;
 }
-
+#gxmes img:hover{
+  transition: 0.75s;
+  border: 15px solid #3e3739;
+}
 
 
 /* MOBILE FIXS */
