@@ -104,42 +104,24 @@ section h1{
   background: #575051;
   color: #fff;
 }
-#gxmes h1{
+#gxmes .title{
   text-align: center;
   margin-left: -40px;
   font-size: 30px;
   padding-bottom: 10px;
   border-bottom: 2px solid rgba(0,0,0,0.2);
 }
-#gxmes .game-link{
-  transform: translate(0,5%);
+
+#gxmes img{
+  transform: translate(0, 25%);
+  border-radius: 25px;
   margin-top: 15px;
-  background: #231f20;
-  width: 200px;
-  height: 200px;
-  border-radius: 15px;
-  box-shadow: 2px 2px 5px black;
+  margin-left: 15px;
+  border: 15px solid black;
 }
-#gxmes .game-link img{
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  display: flex;
-  margin-top: 15px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px white;
-  width:156.25px;
-  height:87px;
-}
-#gxmes .game-link p{
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  display: flex;
-  bottom: 10%;
-  font-size: 30px;
-  text-align: center;
-  text-shadow: 2px 2px 5px white;
+#gxmes img:hover{
+  transition: 0.75s;
+  border: 15px solid #3e3739;
 }
 
 
