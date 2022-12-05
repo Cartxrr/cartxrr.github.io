@@ -14,12 +14,3 @@ hi this is my first ever website i made this for my socials and for my friends a
 [Netlify](https://cartxrr.netlify.app)
 
 
-## Site Up?
-> **Warning**
-> | If Its Not Passing The Websites Down!
-
-![GitHub branch checks state](https://img.shields.io/github/checks-status/cartxrr/cartxrr.github.io/main?label=github&style=for-the-badge)
-
-![Netlify](https://img.shields.io/netlify/690a828f-beb0-411e-8e75-009edb36ec4f?style=for-the-badge)
-
-![Vercel](https://img.shields.io/badge/Verecl-Unknown-critical?style=for-the-badge)
