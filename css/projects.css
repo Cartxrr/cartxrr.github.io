@@ -98,7 +98,7 @@ section h1{
   border-bottom: 2px solid rgba(0,0,0,0.2);
 }
 
-#projects img:before{
+#projects img{
   transform: translate(0, 25%);
   border-radius: 25px;
   margin-top: 15px;
