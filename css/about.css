@@ -33,7 +33,6 @@ a{
     line-height: 90px;
     font-size: 40px;
     text-align: center;
-    margin-bottom: 10px;
     text-shadow: 1px 1px 7px white;
 }
 .wrapper .sidenav ul li{
@@ -103,6 +102,7 @@ section h1{
     margin-top: 10px;
     font-family: serif;
     text-shadow: 2px 2px 10px gray;
+    font-size: 20px;
 }
 
 /* MOBILE FIXS */

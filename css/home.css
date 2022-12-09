@@ -33,7 +33,6 @@ a{
     line-height: 90px;
     font-size: 40px;
     text-align: center;
-    margin-bottom: 10px;
     text-shadow: 1px 1px 7px white;
 }
 .wrapper .sidenav ul li{
@@ -113,6 +112,9 @@ section h1{
   box-shadow: 2px 2px 10px black;
   color: white
 }
+#home .social_buttons .mydiscord{
+  transition: 0.75s;
+}
 #home .social_buttons a:hover{
   color: #FF7518;
   transition: 0.75s;
@@ -132,7 +134,6 @@ section h1{
   font-size: 95%;
   margin-right: 45px;
   margin-top: 1px;
-
 }
 #home .social_buttons a i{
   margin: 0 auto;
