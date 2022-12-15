@@ -51,7 +51,8 @@ section h1{
   display: flex;
   align-items: center;
   box-shadow: 2px 2px 10px black;
-  color: white
+  color: white;
+  transition: 0.75s;
 }
 #home .social_buttons .mydiscord{
   transition: 0.75s;
