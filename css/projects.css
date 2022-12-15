@@ -43,7 +43,7 @@ section h1{
   transform: translate(0, 25%);
   border-radius: 25px;
   margin-top: 15px;
-  margin-left: 15px;
+  margin-left: 75px;
   border: 15px solid black;
   transition: 0.75s
   -webkit-animation: downcenta 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;

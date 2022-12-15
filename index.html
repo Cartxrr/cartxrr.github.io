@@ -15,6 +15,7 @@
 
             <div class="sidenav">
                 <h1> Cartxrr </h1>
+                <h2> C </h2>
 
                 <ul>
                   <li><a href="index.html"><i class="fa-solid fa-house"></i><span>Home</span></a></li> <!-- scary sidebar buttons -->
@@ -22,51 +23,6 @@
                   <li><a href="downloads.html"><i class="fa-solid fa-download"></i><span>Downloads</span></a></li>
                   <li><a href="projects.html"><i class="fa-solid fa-file"></i><span>Projects</span></a></li>
                 </ul>
-
-                <div class="clock">
-                  <span id="hours">00</span>
-                  <span>:</span>
-                  <span id="minutes">00</span>
-                  <span>:</span>
-                  <span id="seconds">00</span>
-                  <span id="session">AM</span>
-
-                  <script>
-
-                  function displayTime(){
-                      var dateTime = new Date();
-                      var hrs = dateTime.getHours();
-                      var min = dateTime.getMinutes();
-                      var sec = dateTime.getSeconds();
-                      var session = document.getElementById('session');
-                      var strmin = "0";
-                      var strsec = "0";
-
-                      if(min < 10)
-                        min = strmin.concat(min);
-
-                      if(sec < 10)
-                        sec = strsec.concat(sec);
-
-                      if(hrs >= 12){
-                          session.innerHTML = 'PM';
-                      }else{
-                          session.innerHTML = 'AM';
-                      }
-
-                      if(hrs > 12){
-                          hrs = hrs - 12;
-                      }
-
-                      document.getElementById('hours').innerHTML = hrs;
-                      document.getElementById('minutes').innerHTML = min;
-                      document.getElementById('seconds').innerHTML = sec;
-                  }
-                  setInterval(displayTime, 10);
-
-                  </script>
-
-                </div>
 
             </div>
 
