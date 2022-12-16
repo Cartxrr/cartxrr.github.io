@@ -8,7 +8,7 @@
     <meta name="apple-mobile-web-app-title" content="Yohoho.io">
 
     <meta name="viewport" content="minimal-ui, user-scalable=no, initial-scale=1, maximum-scale=1, width=device-width">
-    <title>Yohoho | Cartxrr</title>
+    <title>YoHoHo | Cartxrr</title>
 
     <meta property="og:image" content="img/banner1200x630.jpg">
     <meta property="og:image:width" content="1200">
@@ -82,24 +82,9 @@
     <div id="homepage">
         <div class="background">
             <div class="fade">
-                <div id="app-links" class="app-links">
-                    <a id="app-link-ios" class="apple" href="https://apps.apple.com/us/app/yohoho-io/id1515814351?mt=8&amp;utm_source=yohoho.io"><img alt="Download on the App Store" src="img/apple-store.svg"></a>
-                    <a id="app-link-android" class="google" href="https://play.google.com/store/apps/details?id=com.exodragon.yohoho&amp;utm_source=yohoho.io&amp;pcampaignid="><img alt="Get it on Google Play" src="img/google-store.png"></a>
-                </div>
-                <div class="login-box">
-                    <div id="unconnected-block">
-                        <button id="login-button" type="button" class="button" onclick="yohoho.showLoginPopup();" lang="en">Login/Signup</button>
-                        <div id="login-text" class="text" lang="en">Save your progress<br>across computers</div>
-                    </div>
-                    <div id="connected-block">
-                        <img id="profile-picture" src="img/close.svg">
-                        <span class="text">Logged-in</span>
-                        <a href="#" onclick="yohoho.logout();" title="Logout"><img src="img/logout.svg"></a>
-                    </div>
-                </div>
                 <div class="bottom-links">
                     <div>
-                        <a href="/projects.html"> Home </a> -
+                        <a href="/projects.html"> Home </a>
                     </div>
                 </div>
                 <div class="bottom-bar">
@@ -215,7 +200,7 @@
                         </tbody></table>
                         <div class="wins">Total Wins: <span id="total-wins">0</span></div>
                     </div>
-                    <div id="no-webgl-popup">Your browser does not support WebGL, the game will suffer display and performance issues. <a href="help.html">Please read the help for further advice</a>
+                    <div id="no-webgl-popup">Your browser does not support WebGL, the game will suffer display and performance issues.
                         <div class="close" onclick="document.getElementById('no-webgl-popup').style.display='none';">×</div>
                     </div>
                 </div>
@@ -283,77 +268,7 @@
             <div class="close">
                 <div onclick="javascript: document.getElementById('ios-fs-popup').style.display='none';">Close</div>
             </div>
-            <div>Play fullscreen on iOS:</div>
-            <div style="margin-top: 0.5vh">
-                <a class="apple" href="https://apps.apple.com/us/app/yohoho-io/id1515814351?mt=8&amp;utm_source=yohoho.io"><img alt="Download on the App Store" src="img/apple-store.svg"></a>
-                <div style="font-size: 2vh">or</div>
-            </div>
-            <div style="font-size: 3vh; margin-top: 1vh;">Add to home screen</div>
-            <div><img style="height: auto; width: 100%;" src="img/safari-share.png"></div>
-            <div><img style="width: 100%;" src="img/safari-add-homescreen.png"></div>
         </div>
-    </div>
-    <div id="login-popup" class="login-popup animated fadeInDown">
-        <table>
-            <tbody><tr>
-                <td>
-                    <div class="title">Google</div>
-                    <div class="g-signin2" data-onsuccess="onGoogleSignIn" data-longtitle="true" data-theme="dark" data-scope="email"></div>
-
-                    <div id="google-login-button" class="google-signin-button">
-                        <div style="height:36px;width:200px;" class="abcRioButton abcRioButtonBlue" onclick="yohoho.clickGoogleLogin()">
-                            <div class="abcRioButtonContentWrapper">
-                                <div class="abcRioButtonIcon" style="padding:8px">
-                                    <div style="width:18px;height:18px;" class="abcRioButtonSvgImageWithFallback abcRioButtonIconImage abcRioButtonIconImage18">
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 48 48" class="abcRioButtonSvg">
-                                            <g>
-                                                <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"></path>
-                                                <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"></path>
-                                                <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"></path>
-                                                <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"></path>
-                                                <path fill="none" d="M0 0h48v48H0z"></path>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                </div><span style="font-size:13px;line-height:34px;" class="abcRioButtonContents"><span id="not_signed_inn12nekdbo1o9">Sign in with Google</span><span id="connectedn12nekdbo1o9" style="display:none">Signed in with Google</span></span>
-                            </div>
-                        </div>
-                    </div>
-
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="title">Facebook</div>
-                    <div id="fb-login-button" class="fb-button-yohoho" onclick="yohoho.clickFacebookLogin()">
-                        <div class="image">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 216" class="_5h0m" color="#FFFFFF">
-                                <path fill="#FFFFFF" d="
-          M204.1 0H11.9C5.3 0 0 5.3 0 11.9v192.2c0 6.6 5.3 11.9 11.9
-          11.9h103.5v-83.6H87.2V99.8h28.1v-24c0-27.9 17-43.1 41.9-43.1
-          11.9 0 22.2.9 25.2 1.3v29.2h-17.3c-13.5 0-16.2 6.4-16.2
-          15.9v20.8h32.3l-4.2 32.6h-28V216h55c6.6 0 11.9-5.3
-          11.9-11.9V11.9C216 5.3 210.7 0 204.1 0z"></path>
-                            </svg>
-                        </div>
-                        <div class="text">Log in With Facebook</div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input id="emailing-consent-checkbox" type="checkbox"><span id="emailing-consent-text">Send me emails about games updates</span>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input id="privacy-policy-checkbox" type="checkbox">I have read and agree to the <a href="privacypolicy.html" target="_blank">privacy policy</a>
-                </td>
-
-            </tr>
-        </tbody></table>
-
-        <button type="button" class="button close" onclick="document.getElementById('login-popup').style.display='none';" lang="en">×</button>
     </div>
 
     <script type="text/javascript">
