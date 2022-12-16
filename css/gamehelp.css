@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    font-family: arial;
+    background-color: orange;
+}
+
+/* HIDE AND SHOW GAME CONTROLS */
+
+ #check{
+  display: none;
+}
+ label #btn, label #cancel{
+    position: absolute;
+    cursor: pointer;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+}
+ label #btn{
+  z-index: 4;
+  left: 93%;
+  top: 15px;
+  border-radius: 50px;
+  font-size: 35px;
+  color: white;
+  padding: 15px 15px;
+}
+ label #cancel{
+  z-index: 6;
+  left: -255px;
+  bottom: 3%;
+  font-size: 30px;
+  color: white;
+  padding: 4px 9px;
+}
+#check:checked ~ .gamecontrols{
+  left: 50%;
+}
+#check:checked ~ label #cancel{
+  left: 75%;
+  bottom: 69%; /* nice ;) */
+}
+
+/* MENU */
+
+.gamecontrols{
+  z-index: 5;
+  position: absolute;
+  background: rgba(0,0,0,0.8);
+  width: 75vw;
+  height: 50vh;
+  border-radius: 15px;
+  bottom: 25%;
+  left: -999px;
+  transform: translate(-50%);
+}
+.gamecontrols h1{
+  top: 15px;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.gamecontrols p{
+  top: 40%;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  left: 43%;
+}

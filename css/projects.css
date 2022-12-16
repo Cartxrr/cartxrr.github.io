@@ -2,8 +2,8 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     scroll-behavior: none;
+    overflow-x: hidden;
   }
 body{
     font-family: arial;
@@ -38,16 +38,18 @@ section h1{
   padding-bottom: 10px;
   border-bottom: 2px solid rgba(0,0,0,0.2);
 }
-
 #projects img{
+  z-index: 2;
   transform: translate(0, 25%);
   border-radius: 25px;
   margin-top: 15px;
-  margin-left: 75px;
+  margin-left: 10px;
   border: 15px solid black;
   transition: 0.75s
   -webkit-animation: downcenta 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: downcenta 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  width: 156.25px;
+  height: 87px;
 }
 #projects img:hover{
   transition: 0.75s
@@ -97,4 +99,27 @@ section h1{
   -webkit-transform: scale(1);
   transform: scale(1);
 }
+}
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10rem;
+  background-color: #231f20;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10rem;
+  background-color: #FF7518;
+}
+
+/* MOBILE */
+
+@media (max-width: 550px) {
+  #projects img{
+    width: 78.125px;
+    height: 43.5px;
+  }
 }

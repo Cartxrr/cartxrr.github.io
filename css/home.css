@@ -112,9 +112,6 @@ section h1{
   }
 }
 @media (max-width: 600px) { /* phone compatibility */
-    #home{
-      background: #575051;
-    }
     #home .social_buttons{
         position: absolute;
         bottom: 45%;

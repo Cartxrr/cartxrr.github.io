@@ -2,9 +2,9 @@
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
     scroll-behavior: none;
-}
+    overflow-x: hidden;
+  }
 body{
     font-family: arial;
     background: #575051;
@@ -71,5 +71,18 @@ section h1{
   align-items: center;
   transform: translate(0, 50%);
   text-shadow: 2px 2px 10px gray;
-  margin-left: 75px;
+}
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10rem;
+  background-color: #231f20;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10rem;
+  background-color: #FF7518;
 }
