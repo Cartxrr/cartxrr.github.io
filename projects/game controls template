@@ -1,12 +1,8 @@
 
-<head>
-  <title>Game Testing | Cartxrr</title>
-  <link rel="icon" type="image/png" href="images/icon.png" />
   <link rel="stylesheet" href="/css/gamehelp.css">
   <script src="https://kit.fontawesome.com/11fe60c87a.js" crossorigin="anonymous"></script>
-</head>
 
-<body>
+
 
   <input type="checkbox" id="check">
   <label for="check">
@@ -27,5 +23,3 @@
 
 
   </div>
-
-</body>
