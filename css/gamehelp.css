@@ -73,3 +73,10 @@ body{
   position: relative;
   left: 43%;
 }
+.gamecontrols span{
+  top: 40%;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  left: 43%;
+}
