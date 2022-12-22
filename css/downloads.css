@@ -52,6 +52,7 @@ section h1{
   box-shadow: 2px 2px 10px black;
   text-shadow: 2px 2px 10px gray;
   margin-top: 15px;
+  overflow-y: hidden;
 }
 #downloads a p{
   margin: 0 auto;
@@ -61,16 +62,6 @@ section h1{
   background: #3e3739;
   transition: 0.75s;
   color: #ccc;
-}
-#downloads p{
-  color: #fff;
-  height: 50px;
-  font-family: serif;
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-  transform: translate(0, 50%);
-  text-shadow: 2px 2px 10px gray;
 }
 
 /* SCROLL BAR */
