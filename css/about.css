@@ -1,4 +1,13 @@
 
+@font-face {
+  font-family: 'Pulang';
+  src: url(fonts/Pulang.ttf);
+}
+@font-face {
+  font-family: 'SugarSnow';
+  src: url(fonts/SugarSnow.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -33,6 +42,7 @@ section h1{
   font-size: 30px;
   padding-bottom: 10px;
   border-bottom: 2px solid rgba(0,0,0,0.2);
+  font-family: "SugarSnow";
 }
 #aboutme{
     background: #575051;
@@ -40,12 +50,15 @@ section h1{
 }
 #aboutme p{
     transform: translate(0, 50%);
-    font-family: serif;
+    font-family: "Pulang";
     text-shadow: 2px 2px 10px gray;
     font-size: 20px;
     padding-top: 20px;
 }
-
+#aboutme .TextH{
+  font-size: 30px;
+  font-family: "SugarSnow";
+}
 /* SCROLL BAR */
 
 ::-webkit-scrollbar {

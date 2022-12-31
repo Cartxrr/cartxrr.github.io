@@ -1,4 +1,13 @@
 
+@font-face {
+  font-family: 'Pulang';
+  src: url(fonts/Pulang.ttf);
+}
+@font-face {
+  font-family: 'SugarSnow';
+  src: url(fonts/SugarSnow.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -63,6 +72,7 @@ section h1{
 }
 #home .social_buttons .mydiscord span{
   font-size: 0px;
+  font-family: "Pulang";
 }
 #home .social_buttons .mydiscord:hover{
   color: #FF7518;
@@ -73,7 +83,7 @@ section h1{
   opacity: 0;
 }
 #home .social_buttons .mydiscord:hover span{
-  font-size: 95%;
+  font-size: 80%;
   margin-right: 45px;
   margin-top: 1px;
 }
@@ -88,6 +98,7 @@ section h1{
   transform: translate(-50%);
   font-size: 40px;
   display: flex;
+  font-family: "SugarSnow";
 }
 #home .DiscordTag{
   color: white;
@@ -97,6 +108,7 @@ section h1{
   transform: translate(-50%);
   font-size: 50px;
   display: flex;
+  font-family: "SugarSnow";
 }
 
 /* MOBILE FIXS */

@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Pulang';
+  src: url(fonts/Pulang.ttf);
+}
+@font-face {
+  font-family: 'SugarSnow';
+  src: url(fonts/SugarSnow.ttf);
+}
+
+body {
+  font-family: arial;
+  color: #fff;
+  background-color: #575051;
+  background-image: url(/images/404.gif);
+  background-size: cover;
+}
+
+a {
+  color: #fff;
+  padding-bottom: 10px;
+  font-family: "Pulang";
+}
+
+* {
+  margin: auto;
+  text-align: center;
+}
+
+#reason {
+  padding-top: 20%;
+  padding-bottom: 20px;
+  font-family: "SugarSnow";
+}
+
+h1{
+  font-size: 120px;
+}

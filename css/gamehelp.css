@@ -1,4 +1,13 @@
 
+@font-face {
+  font-family: 'Pulang';
+  src: url(fonts/Pulang.ttf);
+}
+@font-face {
+  font-family: 'SugarSnow';
+  src: url(fonts/SugarSnow.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;

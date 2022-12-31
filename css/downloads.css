@@ -1,4 +1,13 @@
 
+@font-face {
+  font-family: 'Pulang';
+  src: url(fonts/Pulang.ttf);
+}
+@font-face {
+  font-family: 'SugarSnow';
+  src: url(fonts/SugarSnow.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -37,6 +46,7 @@ section h1{
   font-size: 30px;
   padding-bottom: 10px;
   border-bottom: 2px solid rgba(0,0,0,0.2);
+  font-family: "SugarSnow";
 }
 #downloads a{
   background: #231f20;
@@ -57,6 +67,7 @@ section h1{
 #downloads a p{
   margin: 0 auto;
   text-align: center;
+  font-family: "Pulang"
 }
 #downloads a:hover{
   background: #3e3739;
