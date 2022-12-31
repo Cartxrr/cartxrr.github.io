@@ -1,6 +1,9 @@
-# Cartxrr
+## Info About the Site!
 
-hi this is my first ever website i made this for my socials and for my friends and family so they could see somethings. i will be working on this for a while, the ?  project was first made on (10/31/2022, Halloween.) i was bored waiting for halloween to start so i diecied to work on something, i started to make this. i gave up on this for a day (11/3/22) i dont know why but i did and then came back!
+Hi this is my Personal Website this site has been through many diffrent stages going from a personal site to a game site to a personal site again there may still be some games up on the site but i wont be adding anymore games.
 
+# Games
 
+im am deeply sorry to anyone that use to play games on my website but i will not be taking anymore request for the site it will now just be a personal site.
 
+*-* Deep Apologies, Carter.
