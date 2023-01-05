@@ -45,15 +45,8 @@ section h1{
   margin-left: -40px;
   font-size: 30px;
   font-family: "SugarSnow";
-}
-#projects p{
-  margin-left: -38px;
-  text-align: center;
-  font-size: 15px;
-  top: 5px;
   padding-bottom: 10px;
   border-bottom: 2px solid rgba(0,0,0,0.2);
-  font-family: "Pulang";
 }
 #projects img{
   z-index: 2;
