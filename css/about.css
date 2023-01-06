@@ -72,3 +72,14 @@ section h1{
   border-radius: 10rem;
   background-color: #FF7518;
 }
+
+/* MOBILE */
+
+@media (max-width: 550px) {
+  #aboutme p{
+      font-size: 10px;
+  }
+  #aboutme .TextH{
+    font-size: 20px;
+  }
+}

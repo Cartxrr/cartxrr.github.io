@@ -1,11 +1,16 @@
+@font-face {
+  font-family: 'Pulang';
+  src: url(Pulang.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden; /* person cant scroll */
-    scroll-behavior: none; /* doesnt work on chrome i think */
+    overflow: hidden;
+    scroll-behavior: none;
 }
 body{
-    font-family: arial; /* wheres comic sans */
+    font-family: arial;
     background: #000;
 }
 a{
@@ -15,13 +20,28 @@ a{
 .clock{
   position: absolute;
   left: 50%;
-  bottom: 50%;
+  bottom: 45%;
   transform: translate(-50%);
   font-size: 75px;
   display: flex;
   color: red;
   font-weight: bold;
 }
+
 .clock span{
   padding: 3px;
+  font-family: 'Pulang';
+}
+
+/* MOBILE */
+
+@media (max-width: 550px) {
+ .clock span{
+   font-size: 50px;
+ }
+}
+@media (max-width: 320px) {
+ .clock span{
+   font-size: 40px;
+ }
 }
