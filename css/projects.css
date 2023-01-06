@@ -51,10 +51,10 @@ section h1{
 #projects img{
   z-index: 2;
   transform: translate(0, 25%);
-  border-radius: 25px;
+  border-radius: 15px;
   margin-top: 15px;
   margin-left: 10px;
-  border: 15px solid black;
+  border: 15px solid #3e3739;
   transition: 0.75s
   -webkit-animation: downcenta 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: downcenta 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -65,7 +65,7 @@ section h1{
   transition: 0.75s
   -webkit-animation: upcenta 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: upcenta 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  border: 15px solid #3e3739;
+  border: 15px solid #231f20;
 }
 
 /* Animations */

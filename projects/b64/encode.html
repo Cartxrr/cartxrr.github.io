@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Base64 Encoder | Cartxrr</title>
+    <link rel="stylesheet" href="coolcss.css">
+    <script src="https://kit.fontawesome.com/11fe60c87a.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" type="x-icon" href="/images/icon.png">
+    <meta property="og:title" content="Encode Base64! | Cartxrr" />
+    <meta property="og:description" content="this site lets you encode base64!" />
+</head>
+<body>
+  <h1 style="color: white;"> Base64 Encoder! </h1>
+  <textarea id="input1" oninput="copyInput()">
+  </textarea>
+  <br>
+  <br>
+  <textarea id="input2"> </textarea>
+  <br>
+  <br>
+  <a href="decode.html">
+  <button>Decode Base64 Instead!!</button>
+  </a>
+
+<script>
+
+  document.getElementById("input1").value = "Put Text Here!"
+  document.getElementById("input2").value = "Base64 Will Show Up Here!"
+
+function copyInput() {
+  // Get the value of the first input
+  let inputValue = document.getElementById("input1").value;
+
+  // Convert the value to a base64 string
+  let base64Value = btoa(inputValue);
+
+  // Set the value of the second input to the base64 string
+  document.getElementById("input2").value = base64Value;
+}
+</script>
+
+</body>
+</html>
