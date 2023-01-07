@@ -28,13 +28,11 @@
   document.getElementById("input2").value = "Base64 Will Show Up Here!"
 
 function copyInput() {
-  // Get the value of the first input
+ 
   let inputValue = document.getElementById("input1").value;
 
-  // Convert the value to a base64 string
   let base64Value = btoa(inputValue);
-
-  // Set the value of the second input to the base64 string
+  
   document.getElementById("input2").value = base64Value;
 }
 </script>
