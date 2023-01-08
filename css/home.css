@@ -63,29 +63,9 @@ section h1{
   color: white;
   transition: 0.75s;
 }
-#home .social_buttons .mydiscord{
-  transition: 0.75s;
-}
 #home .social_buttons a:hover{
   color: #FF7518;
   transition: 0.75s;
-}
-#home .social_buttons .mydiscord span{
-  font-size: 0px;
-  font-family: "Pulang";
-}
-#home .social_buttons .mydiscord:hover{
-  color: #FF7518;
-  width: 250px;
-  transition: 0.75s;
-}
-#home .social_buttons .mydiscord:hover i{
-  opacity: 0;
-}
-#home .social_buttons .mydiscord:hover span{
-  font-size: 80%;
-  margin-right: 45px;
-  margin-top: 1px;
 }
 #home .social_buttons a i{
   margin: 0 auto;
@@ -97,16 +77,6 @@ section h1{
   left: 50%;
   transform: translate(-50%);
   font-size: 40px;
-  display: flex;
-  font-family: "SugarSnow";
-}
-#home .DiscordTag{
-  color: white;
-  position: absolute;
-  bottom: 50%;
-  left: -345345345345px;
-  transform: translate(-50%);
-  font-size: 50px;
   display: flex;
   font-family: "SugarSnow";
 }
@@ -133,28 +103,25 @@ section h1{
         display: flex;
     }
     #home .social_buttons a{
-      margin: 0 0;
+      margin: 0 5px;
       height: 30px;
       width: 30px;
       background-color: #231f20;
     }
-    #home .Greeting{
-      left: -345345345345px;
+    #home .Greeting {
+      font-size: 22px;
     }
-    #home .DiscordTag{
-      color: white;
-      position: absolute;
-      bottom: 50%;
-      left: 50%;
-      transform: translate(-50%);
-      font-size: 25px;
-      display: flex;
+}
+@media (max-width: 400px) {
+    #home .Greeting {
+      font-size: 15px;
     }
-    #home .social_buttons .mydiscord{
-      opacity: 0;
+    #home .social_buttons a{
+      height: 20px;
+      width: 20px;
+      font-size: 15px;
     }
-    #home .social_buttons .myyoutube{
-    }
-    #home .social_buttons .mygithub{
+    #home .social_buttons {
+        bottom: 47%;
     }
 }
