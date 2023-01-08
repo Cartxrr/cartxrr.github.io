@@ -28,13 +28,12 @@
   document.getElementById("input2").value = "Text Will Show Up Here!"
 
   function copyInput() {
-    // Get the value of the first input
+    
     let inputValue = document.getElementById("input1").value;
 
-    // Decode the base64 string
+    
     let decodedValue = atob(inputValue);
 
-    // Set the value of the second input to the decoded string
     document.getElementById("input2").value = decodedValue;
   }
 </script>
